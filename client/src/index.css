@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body , html{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+}
+html{
+  overflow-x: hidden;
+}
+img{
+  height: 250px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+h1{
+  font-size: 20px !important;
+}
+.navbar{
+  background-color:black !important;
+  border-radius: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-link{
+  color: white !important;
+
+}
+.navbar-brand{
+  color: white !important;
+}
+.btn{
+  box-shadow: none !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.modal-body{
+  height: 450px !important;
+  overflow-y: auto;
+}
+input , .ant-picker {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+  width: 100% !important;
+  border-radius: 3px !important;
+}
+.dropdown-toggle{
+  background-color: black !important;
+  border: 0px solid black !important;
+  color:white !important;
+}
+.i2{
+  margin: 0 !important;
+}
+select{
+  box-shadow: none !important;
+  border: 2px solid black !important;
+}
+p{
+  font-size: 16px !important;
+}
+.btn{
+  background-color:black !important;
+  border-color: black !important;
+}
+.ant-picker-input input{
+  border:none !important;
+}
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px !important;
+}
+.ant-tabs-tab , .ant-tabs-tab-active , .ant-tabs-tab-btn {
+  color:black !important;
+}
+.ant-tabs-ink-bar .ant-tabs-ink-bar-animated{
+  background-color:black !important;
+}
+
+.landing{
+  
+  height:calc(100vh) !important;
+  background-color:rgb(0, 0, 0) !important;
+  
+}
+.landing .btn{
+  background-color:white !important;
+  color:black !important;
+  margin-top: 10px !important;
+}
