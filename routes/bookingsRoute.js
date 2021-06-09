@@ -9,7 +9,7 @@ const stripe = require("stripe")(
 const Booking = require("../models/booking");
 const Room = require("../models/room");
 router.post("/bookroom", async (req, res) => {
-  const { room, fromdate, todate, totalDays, totalAmount, user } = req.body;
+  const { room, fromdate, todate, totalDays, totalAmount, user , token } = req.body;
 
     try {
       const customer = await stripe.customers.create({
