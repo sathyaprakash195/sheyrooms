@@ -1,6 +1,12 @@
 import React from "react";
 
 function Navbar() {
+
+  function logout() {
+    localStorage.removeItem('currentUser')
+    window.location.href='/login'
+  }
+
   return (
     <div>
       <nav class="navbar navbar-expand-lg">
@@ -32,7 +38,7 @@ function Navbar() {
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="/profile">Profile</a>
-              <a class="dropdown-item" href="#">Logout</a>
+              <a class="dropdown-item" href="#" onClick={logout}>Logout</a>
             </div>
           </div>
 

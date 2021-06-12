@@ -4,6 +4,7 @@ import axios from "axios";
 import Error from "../components/Error";
 import Loader from "../components/Loader";
 import Success from "../components/Success";
+import Swal from 'sweetalert2'
 export default function Loginscreen() {
   
 
@@ -37,6 +38,7 @@ export default function Loginscreen() {
         seterror(true)
         setloading(false)
         console.log(error);
+        
       }
     }
 
