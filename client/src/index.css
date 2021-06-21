@@ -65,9 +65,7 @@ p{
   background-color:black !important;
   border-color: black !important;
 }
-.ant-picker-input input{
-  border:none !important;
-}
+
 .bs{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 5px !important;
@@ -77,6 +75,9 @@ p{
 }
 .ant-tabs-ink-bar .ant-tabs-ink-bar-animated{
   background-color:black !important;
+}
+.ant-picker-input input{
+  border:none !important;
 }
 
 .landing{

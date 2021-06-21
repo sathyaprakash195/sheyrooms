@@ -128,7 +128,7 @@ function Homescreen() {
         ) : (
           hotels.map((room) => {
             return (
-              <div className="col-md-9" data-aos='zoom-in'>
+              <div className="col-md-8" data-aos='zoom-in'>
                 <Room room={room} fromdate={fromdate} todate={todate}/>
               </div>
             );
